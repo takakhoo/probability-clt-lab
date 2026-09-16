@@ -16,8 +16,8 @@ visual check.
 ## Quick start
 
 ```bash
-git clone https://github.com/takakhoo/Bernoulli-Central-Limit-Theorem-Experiment.git
-cd Bernoulli-Central-Limit-Theorem-Experiment
+git clone https://github.com/takakhoo/probability-clt-lab.git
+cd probability-clt-lab
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
@@ -37,6 +37,12 @@ compares the empirical sampling distribution with
 
 The cells are arranged as an exploratory lab: change the prior, success
 probability, sample size, or number of simulations and rerun from top to bottom.
+
+## Verification
+
+The committed notebook was executed from its first cell through its last in a
+fresh environment on September 16, 2026. It completed without cell errors and
+regenerated the estimators and CLT visualizations.
 
 ## Scope
 
